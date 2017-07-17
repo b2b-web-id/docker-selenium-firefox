@@ -25,7 +25,7 @@ RUN apt-get -y update \
     sudo \
     unzip \
     wget \
-  && rm -rf /var/lib/apt/lists/* /var/cache/apt/* \
+  && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 RUN apt-get -y update \
   && apt-get -y install \
     openjdk-7-jre-headless \
